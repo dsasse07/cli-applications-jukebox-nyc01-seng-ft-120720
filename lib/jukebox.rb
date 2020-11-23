@@ -63,7 +63,6 @@ def run (songs)
   until selection == "exit"
     run_init
     selection = menu_selection
-    binding.pry
     while invalid_selection? (selection)
       "Invalid command"
       run_init
