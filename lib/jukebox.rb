@@ -17,7 +17,7 @@ def play (songs)
     puts "Invalid input, please try again"
   else
     song_id = get_song_id(choice, songs)
-    puts song_id
+    puts "Playing " + song_id
   end
 end
 
