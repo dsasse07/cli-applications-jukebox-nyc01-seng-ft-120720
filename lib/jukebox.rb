@@ -74,8 +74,6 @@ def run (songs)
       list(songs)
     elsif selection == "help"
       help
-    else
-      break
     end
   end
   exit_jukebox
