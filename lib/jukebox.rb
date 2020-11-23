@@ -57,9 +57,9 @@ def exit_jukebox
 end 
 
 def run (songs)
+  run_init
   selection = ""
   until selection == "exit"
-    run_init
     selection = menu_selection
     while invalid_selection? (selection)
       "Invalid command"
