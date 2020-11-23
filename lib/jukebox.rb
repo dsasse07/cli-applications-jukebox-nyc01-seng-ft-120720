@@ -45,8 +45,6 @@ def invalid_choice?(selection, songs)
     return true 
   end
 end
-      
-  
 
 def list(songs)
   songs.each_with_index do |song, index|
@@ -59,9 +57,9 @@ def exit_jukebox
 end 
 
 def run (songs)
-  run_init
-  selection = menu_selection
-  
+  # run_init
+  # selection = menu_selection
+  selection = ""
   until selection == "exit"
     run_init
     selection = menu_selection
