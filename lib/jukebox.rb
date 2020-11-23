@@ -57,8 +57,6 @@ def exit_jukebox
 end 
 
 def run (songs)
-  # run_init
-  # selection = menu_selection
   selection = ""
   until selection == "exit"
     run_init
