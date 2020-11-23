@@ -65,7 +65,6 @@ def run (songs)
     selection = menu_selection
     while invalid_selection? (selection)
       "Invalid command"
-      run_init
       selection = menu_selection
     end
     
