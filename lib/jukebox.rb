@@ -18,6 +18,7 @@ def play (songs)
   else
     song_id = get_song_id(choice, songs)
     puts song_id
+    song_id
   end
 end
 
