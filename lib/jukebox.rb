@@ -92,10 +92,11 @@ def menu_selection
 end
 
 def invalid_selection?(selection)
-  if selection != "help" && selection != "play" && selection != "list" && selection != "exit" 
-    true
+  possible_options = ["help","play","list","exit"]
+  if possible_options.any?(selection) 
+    return false
   else
-    false
+    return true
   end
 end
 
